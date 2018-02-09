@@ -7,12 +7,12 @@ int main()
 	string a;
 	int b[20];
 	getline(cin, a);
-	a[0] = 1;
 	for (int i = 0; i <(a.size()+1);i++)
 	{
 		b [i]= a[i];
-		cout << b[i]<<char(b[i])<<" ";
+		cout << b[i]<<",";
 	}
+	//½«×Ö·û´®ÒÔASCIIÂëĞÎÊ½´æ´¢
 	cin.get();
 	cin.get();
 	return 0;
